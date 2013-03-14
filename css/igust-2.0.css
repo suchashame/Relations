@@ -1,0 +1,102 @@
+.loading_bar {
+    width: 100%;
+
+}
+
+#family {
+    background: #b1b1b1;
+}
+
+#family_debug {
+
+    color: #ff0000;
+
+}
+
+.cancel {
+    margin-bottom: -4px;
+    cursor: pointer;
+
+}
+
+.capital {
+    cursor: pointer;
+    text-transform: uppercase;
+    /* text-transform:capitalize;*/
+    letter-spacing: 2px;
+}
+
+.label {
+    width: 200px;
+    display: inline-block;
+    text-align: right;
+}
+
+.familyadd, .familytimeback {
+    display: none;
+}
+
+.sugbox {
+    position: absolute;
+    margin-left: 200px;
+    padding: 0px 5px 0px 5px;
+    text-align: left;
+    visibility: visible;
+    background-color: #cccccc;
+    border-radius: 3px;
+}
+
+.pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.out_notifier {
+    width: 16px;
+    height: 16px;
+    border-radius: 25px;
+    border: solid #f5f5f5 2px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 490px;
+
+    color: #f5f5f5;
+    background: red;
+    background: -webkit-gradient(linear, left top, left bottom, from(#d40700), to(#b01c2d));
+    background: -webkit-linear-gradient(top, #d40700, #b01c2d);
+    background: -moz-linear-gradient(top, #d40700, #b01c2d);
+    background: -ms-linear-gradient(top, #d40700, #b01c2d);
+    background: -o-linear-gradient(top, #d40700, #b01c2d);
+}
+
+.in_notifier {
+    position: absolute;
+    margin-left: 4px;
+}
+
+.unchained {
+    display: none;
+}
+
+#unchained {
+    border-bottom: 1px dashed grey;
+
+}
+
+.bottom {
+    margin-bottom: 5px;
+}
+
+.fail {
+    display: none;
+    position: absolute;
+    margin-left: 3px;
+}
+
+.white, .sugact {
+    color: white;
+}
+
+#family_fill {
+    width: 100px;
+}
